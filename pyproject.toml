@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "machine-learning-system-design"
+version = "0.1.0"
+description = ""
+authors = ["Mark Barbaric <markantonybarbaric@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+tensorflow = "^2.17.0"
+pandas = "^2.2.2"
+numpy = "1.26.0"
+ipykernel = "^6.29.5"
+matplotlib = "^3.9.0"
+tensorflow-datasets = "^4.9.6"
+tensorflow-recommenders = "0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
